@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineVitestConfig({
   plugins: [vue()],
   test: {
+    environment: 'nuxt',
     setupFiles: ['./tests/setup.ts'],
   },
   resolve: {
