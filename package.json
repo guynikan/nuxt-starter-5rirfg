@@ -5,7 +5,8 @@
     "dev": "HOST=0.0.0.0 nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest --config vitest.config.js"
   },
   "devDependencies": {
     "@types/node": "^18",
